@@ -1,0 +1,44 @@
+/* CSS Example 2 ("CSSEg2.css"): CSS Class and ID Selectors */
+/* Rule 1: Apply to the <body> element and possibly its descendants */
+body {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    /* 16px = 12pt */
+    margin: 5px 15px 5px 15px;
+    /* top right bottom left - no commas in between */
+    padding: 0;
+}
+
+/* Rule 2: Apply to <h1> to <h6> elements */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Rule 3: Apply to the element with id="header" or id="footer" */
+#header,
+#footer {
+    background-color: #eee;
+    /* light gray, same as #eeeeee */
+}
+
+/* Rule 4: Apply to one unique element with id="footer" */
+#footer {
+    text-align: right;
+}
+
+/* Rule 5: Apply to all elements having class="new" */
+.new {
+    color: red;
+}
+
+/* Rule 6: Apply to all elements having class="new" */
+.highlight {
+    background-color: yellow;
+}
